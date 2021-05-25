@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+       Services
+    </title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+
+<body>
+<header>
+    <div class="container">
+    <div id="branding">
+    <h1><span class="highlight"> ACME</span> WEB DESIGN</h1>
+
+        </div>
+        <nav>
+<ul>
+<li><a href="class1.html">HOME</a></li>
+<li><a href="about.html">ABOUT</a></li>
+<li class="current"><a href="services.html">services</a></li>
+</ul>
+
+        </nav>
+    </div>
+</header>
+
+
+<section id="main">
+<div class="container">
+    <h1>Subscribe</h1>
+    <form>
+        <input type="email" placeholder="enter email">
+        <button type="submit" class="button1">Subscribe</button>
+        
+    </form>
+</div>
+
+
+</section>
+<section id="main">
+<div class="container">
+    <article id="main-col">
+
+        <h1 class="page-title">Services</h1>
+       <ul id="services">
+           <li>
+               <h3>Website Design</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+                <p> Pricing:$25 per month</p>            
+            </li>
+       </ul>
+     
+</article>
+<aside id="sidebar">
+    <div class="dark">
+        <h3>Get A Quote</h3>
+        <form class="quote">
+            <div>
+<label>Name</label><br>
+<input type="text" placeholder="Name">
+</div>
+<div>
+    <label>email</label><br>
+    <input type="email" placeholder="Email">
+                </div>
+            <div>
+                <label>Message</label><br>
+                <textarea placeholder="messages"></textarea>
+                            </div>
+            <button class="button1" type="submit">Send</button>
+
+        </form>
+
+    </div>
+</aside>
+
+    </div>
+</section>
+<footer>
+    <p>ACME Design, Copyright &copy; 2017</p>
+</footer>
+</body>
